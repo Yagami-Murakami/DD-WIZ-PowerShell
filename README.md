@@ -23,7 +23,7 @@ Este script **não inclui** as ferramentas de linha de comando necessárias para
 
 Após baixar tudo, sua pasta deve ficar assim para que o script funcione:
 
-/Sua-Pasta-DD-WIZ/
+### /Sua-Pasta-DD-WIZ/
 |
 |-- DiskDuplicator.ps1  (Este script)
 |-- dd.exe              (Baixado do site oficial)
