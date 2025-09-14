@@ -31,10 +31,32 @@ Após baixar tudo, sua pasta deve ficar assim para que o script funcione:
 ```
 ## 🚀 Como Usar
 
-1.  **Passo 1: Baixar o Script:** Faça o download do arquivo `DiskDuplicator.ps1` desta página do GitHub.
-2.  **Passo 2: Baixar as Dependências:** Baixe o `dd.exe` e o `zstd.exe` usando os links na seção de Pré-requisitos.
-3.  **Passo 3: Organizar a Pasta:** Crie uma nova pasta em seu computador e coloque os 3 arquivos (`DiskDuplicator.ps1`, `dd.exe`, `zstd.exe`) juntos dentro dela.
-4.  **Passo 4: Executar:** Clique com o **botão direito** no arquivo `DiskDuplicator.ps1` e selecione **"Executar com o PowerShell"**.
+Existem duas maneiras de executar o script. Se a primeira não funcionar, a segunda é garantida.
+
+### Método 1: Simples (Clique com o Botão Direito)
+
+1.  Siga os passos da seção **Pré-requisitos** e **Estrutura da Pasta** para ter os 3 arquivos juntos.
+2.  Clique com o **botão direito** no arquivo `DiskDuplicator.ps1`.
+3.  Selecione **"Executar com o PowerShell"**.
+4.  O script pedirá elevação para Administrador.
+
+*Se este método resultar em um erro vermelho sobre "execução de scripts foi desabilitada neste sistema", use o método via terminal abaixo.*
+
+### Método 2: Via Terminal (Garantido)
+
+1.  **Abra o PowerShell como Administrador.** Para isso, pesquise "PowerShell" no Menu Iniciar, clique com o botão direito no ícone e selecione "Executar como Administrador".
+2.  **Navegue até a pasta do projeto.** Use o comando `cd` para entrar na pasta que você criou. Exemplo:
+    ```powershell
+    cd C:\Users\tuninho\Documents\DD-WIZ
+    ```
+3.  **Libere a execução do script (apenas para esta janela).** Cole e execute o seguinte comando:
+    ```powershell
+    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force
+    ```
+4.  **Execute o script.** Agora, basta digitar o nome do script e pressionar Enter:
+    ```powershell
+    .\DiskDuplicator.ps1
+    ```
 
 ## ✅ Funcionalidades
 
