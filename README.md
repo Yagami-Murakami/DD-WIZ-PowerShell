@@ -22,13 +22,13 @@ Este script **não inclui** as ferramentas de linha de comando necessárias para
 ### Estrutura da Pasta do Projeto
 
 Após baixar tudo, sua pasta deve ficar assim para que o script funcione:
-
+```
 📁 /Sua-Pasta-DD-WIZ/
 |
 |-- 📜 DiskDuplicator.ps1  (Este script)
 |-- ⚙️ dd.exe              (Baixado do site oficial)
 |-- ⚙️ zstd.exe            (Baixado do site oficial)
-
+```
 ## 🚀 Como Usar
 
 1.  **Passo 1: Baixar o Script:** Faça o download do arquivo `DiskDuplicator.ps1` desta página do GitHub.
