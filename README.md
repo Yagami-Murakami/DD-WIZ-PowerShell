@@ -4,7 +4,7 @@ Ferramenta de clonagem e gerenciamento de disco para Windows via PowerShell
 
 **Autor:** tuninho kjr
 **Versão:** 2.9
-
+![Demonstracao do DD WIZ](https://github.com/user-attachments/assets/f68cc5e0-96f3-48de-a437-6ef71a3a21e9)
 Um utilitário de disco poderoso e seguro para Windows, escrito em PowerShell. O DD WIZ oferece uma interface de menu guiada para realizar operações críticas de disco como clonagem, backup, restauração e formatação, com múltiplas camadas de segurança para prevenir a perda de dados.
 
 ## ⚙️ Pré-requisitos (Download Obrigatório)
